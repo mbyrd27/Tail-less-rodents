@@ -1,0 +1,59 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Asus Q406DA-BR5T6",
+            "year": 2019
+        },
+        {
+            "id": 3,
+            "model": "Microsoft Surface",
+            "year": 2018
+        }
+    ],
+
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Prosdociumus",
+            "lastName": "Revie",
+            "age": 39,
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Rafael",
+            "lastName": "Waxweiler",
+            "age": 26,
+            "computerId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Nikol",
+            "lastName": "Jarrett",
+            "age": 28,
+            "computerId": 3
+        },
+        {
+            "id": 4,
+            "firstName": "Faith",
+            "lastName": "Musial",
+            "age": 24,
+            "computerId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Stratton",
+            "lastName": "Brand",
+            "age": 40,
+            "computerId": 1
+        }
+        
+    ]
+    
+}
