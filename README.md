@@ -1,2 +1,0 @@
-# Tail-less-rodents
-Practice
