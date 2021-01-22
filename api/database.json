@@ -23,37 +23,61 @@
             "firstName": "Prosdociumus",
             "lastName": "Revie",
             "age": 39,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 1
+            
         },
         {
             "id": 2,
             "firstName": "Rafael",
             "lastName": "Waxweiler",
             "age": 26,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 4
         },
         {
             "id": 3,
             "firstName": "Nikol",
             "lastName": "Jarrett",
             "age": 28,
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 2
         },
         {
             "id": 4,
             "firstName": "Faith",
             "lastName": "Musial",
             "age": 24,
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 3
         },
         {
             "id": 5,
             "firstName": "Stratton",
             "lastName": "Brand",
             "age": 40,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 2
+        }  
+    ],
+
+    "departments": [
+        {
+            "id": 1,
+            "name": "IT/Information Services"
+        },
+        {
+            "id": 2,
+            "name": "Sales"
+        },
+        {
+            "id": 3,
+            "name": "Quality Assurance/Quality Control"
+        },
+        {
+            "id": 4,
+            "name": "Accounting"
         }
-        
     ]
     
 }
