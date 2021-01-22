@@ -1,5 +1,12 @@
-export const Employee = (worker, computer) => {
-    return `<h3>${worker.firstName} ${worker.lastName}</h3>
-    <div>Age: ${worker.age}</div>
-    <div>Issued Device: ${computer.year} ${computer.model}</div>`
+export const Employee = (worker, computer, department) => {
+    return `<header class="employee__name">
+        <h3>${worker.firstName} ${worker.lastName}</h3>
+    </header>
+    <section class="employee__age"><strong>Age:</strong> ${worker.age}</section>
+    <section class="employee__computer">
+        <strong>Issued Device:</strong> ${computer.year} ${computer.model}
+    </section>
+    <section class="employee__department">
+        <strong>Department: </strong> ${department.name}
+    </section>`
 }
