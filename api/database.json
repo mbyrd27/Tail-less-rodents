@@ -24,7 +24,8 @@
             "lastName": "Revie",
             "age": 39,
             "computerId": 1,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId": 2
             
         },
         {
@@ -33,7 +34,8 @@
             "lastName": "Waxweiler",
             "age": 26,
             "computerId": 1,
-            "departmentId": 4
+            "departmentId": 4,
+            "locationId": 2
         },
         {
             "id": 3,
@@ -41,7 +43,8 @@
             "lastName": "Jarrett",
             "age": 28,
             "computerId": 3,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 1
         },
         {
             "id": 4,
@@ -49,7 +52,8 @@
             "lastName": "Musial",
             "age": 24,
             "computerId": 2,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId": 1
         },
         {
             "id": 5,
@@ -57,7 +61,8 @@
             "lastName": "Brand",
             "age": 40,
             "computerId": 1,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 3
         }  
     ],
 
@@ -77,6 +82,21 @@
         {
             "id": 4,
             "name": "Accounting"
+        }
+    ],
+
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville"
+        },
+        {
+            "id": 2,
+            "city": "Atlanta"
+        },
+        {
+            "id": 3,
+            "city": "Memphis"
         }
     ]
     
