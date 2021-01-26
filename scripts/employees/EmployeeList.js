@@ -26,7 +26,8 @@ export const EmployeeList = () => {
 
 const render = (emps, comps, depts, locs, cust, custRel) => {
     const contentTarget = document.querySelector('.employees')
-    contentTarget.innerHTML = emps.map(emp => {
+    contentTarget.innerHTML = `<h2> 3BM Employees </h2>
+        ${emps.map(emp => {
         const matchingComp = comps.find(cp => emp.computerId === cp.id)
         const matchingDept = depts.find(dep => emp.departmentId === dep.id)
         const matchingLoc = locs.find(loc => emp.locationId === loc.id)
@@ -37,4 +38,5 @@ const render = (emps, comps, depts, locs, cust, custRel) => {
         })
         return Employee(emp, matchingComp, matchingDept, matchingLoc, matchingCust)
     }).join('')
+        }`
 }
